@@ -1,14 +1,15 @@
-import './App.css'
+import { Box, Typography } from '@mui/material'
 
 function App() {
 
   return (
-    <>
-      <div style={{ marginTop: 16 }}>
-        <img src="/logo.svg" className="logo" alt="Logo" />
-        <img src="/logo-ics.svg" className="logo" alt="Logo ICS" />
-      </div>
-    </>
+    <Box style={{ width: '100%', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <Typography variant="h1">
+        Hello world!
+      </Typography>
+      {/* <img src="/logo.svg" className="logo" alt="Logo" />
+        <img src="/logo-ics.svg" className="logo" alt="Logo ICS" /> */}
+    </Box>
   )
 }
 
