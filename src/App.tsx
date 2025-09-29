@@ -7,8 +7,6 @@ function App() {
       <Typography variant="h1">
         Hello world!
       </Typography>
-      {/* <img src="/logo.svg" className="logo" alt="Logo" />
-        <img src="/logo-ics.svg" className="logo" alt="Logo ICS" /> */}
     </Box>
   )
 }
